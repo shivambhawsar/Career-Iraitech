@@ -1,0 +1,12 @@
+#div1{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    left: 0;
+}
