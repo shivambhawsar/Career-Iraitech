@@ -1,0 +1,13 @@
+<form>
+    <div *ngFor="let ph of phone; let in=index">
+        <div>
+          <input type="text" [(ngModel)]="phone[in].value" name="name{{in}}" #name="ngModel">
+          <button (click)="add()">Add another phone number</button>
+          <button (click)="delete()">delete</button>
+        </div>
+        <br>
+    </div>
+    <button (click)="show()">submit</button>
+</form>
+<br /><br />
+{{phone | json}}
