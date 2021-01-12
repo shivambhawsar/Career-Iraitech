@@ -23,7 +23,7 @@ export class AppComponent {
   }
 
   question4() {
-    this.router.navigate(['box']);
+    this.router.navigate(['box1']);
   }
   
 }

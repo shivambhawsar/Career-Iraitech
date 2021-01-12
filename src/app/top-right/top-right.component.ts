@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TopLeftComponent } from '../top-left/top-left.component';
 
 @Component({
   selector: 'app-top-right',
@@ -9,7 +10,7 @@ export class TopRightComponent implements OnInit {
 
   content: string = "";
   
-  constructor() { }
+  constructor(public topLeft : TopLeftComponent) { }
 
   ngOnInit(): void {
   }
